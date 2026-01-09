@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEKAI SELECT - 世界各国の厳選アイテム</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">SEKAI SELECT</a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#categories">カテゴリ</a></li>
+                    <li><a href="#featured">特集</a></li>
+                    <li><a href="#about">私たちについて</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn search-btn" aria-label="検索">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <button class="icon-btn cart-btn" aria-label="カート">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+            <button class="mobile-menu-btn" aria-label="メニュー">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Curated from around the world</p>
+            <h1 class="hero-title">世界を、届ける。</h1>
+            <p class="hero-description">
+                私たちは世界各国を旅し、現地でしか出会えない<br>
+                特別なアイテムを厳選してお届けします。
+            </p>
+            <a href="#categories" class="btn btn-primary">コレクションを見る</a>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- 国別カテゴリセクション -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">CATEGORIES</p>
+                <h2 class="section-title">買い付け国から探す</h2>
+            </div>
+            <div class="category-grid">
+                <a href="#" class="category-card category-france">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <span class="category-country">France</span>
+                        <h3 class="category-name">フランス</h3>
+                        <p class="category-desc">アンティーク雑貨・ヴィンテージファブリック</p>
+                    </div>
+                </a>
+                <a href="#" class="category-card category-italy">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <span class="category-country">Italy</span>
+                        <h3 class="category-name">イタリア</h3>
+                        <p class="category-desc">革製品・陶器・グラスウェア</p>
+                    </div>
+                </a>
+                <a href="#" class="category-card category-morocco">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <span class="category-country">Morocco</span>
+                        <h3 class="category-name">モロッコ</h3>
+                        <p class="category-desc">ラグ・バスケット・タイル</p>
+                    </div>
+                </a>
+                <a href="#" class="category-card category-india">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <span class="category-country">India</span>
+                        <h3 class="category-name">インド</h3>
+                        <p class="category-desc">テキスタイル・真鍮製品・スパイス</p>
+                    </div>
+                </a>
+                <a href="#" class="category-card category-japan">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <span class="category-country">Japan</span>
+                        <h3 class="category-name">日本</h3>
+                        <p class="category-desc">伝統工芸品・器・和雑貨</p>
+                    </div>
+                </a>
+                <a href="#" class="category-card category-thailand">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <span class="category-country">Thailand</span>
+                        <h3 class="category-name">タイ</h3>
+                        <p class="category-desc">シルク製品・木工品・籐家具</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 特集商品セクション -->
+    <section id="featured" class="featured">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">FEATURED ITEMS</p>
+                <h2 class="section-title">今週のおすすめ</h2>
+            </div>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <span>商品画像</span>
+                        </div>
+                        <span class="product-badge">NEW</span>
+                        <button class="wishlist-btn" aria-label="お気に入りに追加">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-origin">フランス</span>
+                        <h3 class="product-name">アンティーク真鍮キャンドルホルダー</h3>
+                        <p class="product-price">¥12,800</p>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <span>商品画像</span>
+                        </div>
+                        <button class="wishlist-btn" aria-label="お気に入りに追加">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-origin">モロッコ</span>
+                        <h3 class="product-name">ベニワレン風ハンドメイドラグ</h3>
+                        <p class="product-price">¥45,000</p>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <span>商品画像</span>
+                        </div>
+                        <span class="product-badge sale">SALE</span>
+                        <button class="wishlist-btn" aria-label="お気に入りに追加">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-origin">イタリア</span>
+                        <h3 class="product-name">ムラーノガラス フラワーベース</h3>
+                        <p class="product-price"><span class="price-original">¥28,000</span> ¥22,400</p>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <span>商品画像</span>
+                        </div>
+                        <button class="wishlist-btn" aria-label="お気に入りに追加">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-origin">インド</span>
+                        <h3 class="product-name">カンタ刺繍クッションカバー</h3>
+                        <p class="product-price">¥8,500</p>
+                    </div>
+                </article>
+            </div>
+            <div class="section-footer">
+                <a href="#" class="btn btn-secondary">すべての商品を見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- コンセプトセクション -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-placeholder">
+                        <span>買い付けの様子</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <p class="section-subtitle">OUR STORY</p>
+                    <h2 class="section-title">一点一点に、<br>物語があります。</h2>
+                    <p class="about-text">
+                        SEKAI SELECTは、世界各国の職人やマーケットを訪ね歩き、
+                        現地でしか出会えない特別なアイテムを厳選してお届けしています。
+                    </p>
+                    <p class="about-text">
+                        大量生産では味わえない、手仕事の温もりと土地の記憶が宿る品々。
+                        それぞれのアイテムが持つストーリーと共に、
+                        あなたの暮らしに彩りを添えることができれば幸いです。
+                    </p>
+                    <a href="#" class="btn btn-outline">詳しく見る</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ニュースレター登録 -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">最新情報をお届けします</h2>
+                <p class="newsletter-text">新着商品や買い付けレポート、限定セール情報をメールでお届け</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="メールアドレスを入力" required>
+                    <button type="submit" class="btn btn-primary">登録する</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">SEKAI SELECT</div>
+                    <p class="footer-tagline">世界を、届ける。</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Pinterest">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>ショッピング</h4>
+                    <ul>
+                        <li><a href="#">新着商品</a></li>
+                        <li><a href="#">カテゴリ一覧</a></li>
+                        <li><a href="#">セール</a></li>
+                        <li><a href="#">ギフト</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>カスタマーサービス</h4>
+                    <ul>
+                        <li><a href="#">配送について</a></li>
+                        <li><a href="#">返品・交換</a></li>
+                        <li><a href="#">よくあるご質問</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>会社情報</h4>
+                    <ul>
+                        <li><a href="#">私たちについて</a></li>
+                        <li><a href="#">買い付けの旅</a></li>
+                        <li><a href="#">ブログ</a></li>
+                        <li><a href="#">採用情報</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SEKAI SELECT. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">プライバシーポリシー</a>
+                    <a href="#">利用規約</a>
+                    <a href="#">特定商取引法に基づく表記</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
